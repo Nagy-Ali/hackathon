@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1054797395226",
+    "firebase_url": "https://volajj-b8202.firebaseio.com",
+    "project_id": "volajj-b8202",
+    "storage_bucket": "volajj-b8202.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054797395226:android:3becda0fe48d8601",
+        "android_client_info": {
+          "package_name": "com.vispire.applications.volajj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1054797395226-acdi1jg69qsul4osuvdsfgc3kvmmp6fl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZF0VZa8hl5YKoNpUwkfaPpHMza8reAAA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

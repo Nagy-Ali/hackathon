@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Volajj</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_face_verification">FaceVerificationActivity</string>
+    <string name="title_activity_requests">Volajj Requests</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps2">Map</string>
+    <string name="title_activity_pilgrim_registraion">PilgrimRegistraionActivity</string>
+    <string name="title_activity_request_details">Request Details</string>
+</resources>

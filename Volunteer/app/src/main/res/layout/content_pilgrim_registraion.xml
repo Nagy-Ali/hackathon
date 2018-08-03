@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/fab_margin">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="@dimen/fab_margin"
+            tools:src="@mipmap/ic_launcher" />
+
+        <EditText
+            android:id="@+id/pilg_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/fab_margin"
+            android:hint="Name" />
+
+        <Spinner
+            android:id="@+id/pilg_gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/fab_margin"></Spinner>
+
+        <EditText
+            android:id="@+id/pilg_nationality"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/fab_margin"
+            android:hint="Nationality" />
+
+        <EditText
+            android:id="@+id/pilg_language"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/fab_margin"
+            android:hint="Language" />
+
+        <EditText
+            android:id="@+id/pilg_birthdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/fab_margin"
+            android:hint="Birthdate" />
+
+        <EditText
+            android:id="@+id/pilg_passport_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/fab_margin"
+            android:hint="Passaport Number" />
+
+        <EditText
+            android:id="@+id/pilg_mutawf_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/fab_margin"
+            android:hint="El-Mutawf Number" />
+
+        <EditText
+            android:id="@+id/pilg_madinah_accommodation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/fab_margin"
+            android:hint="Madinah Accommodation" />
+
+        <EditText
+            android:id="@+id/pilg_makkah_accommodation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/fab_margin"
+            android:hint="Makkah Accommodation" />
+
+        <EditText
+            android:id="@+id/pilg_mena_accommodation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/fab_margin"
+            android:hint="Mena Accommodation" />
+
+        <Switch
+            android:id="@+id/pilg_switch_diabetes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/fab_margin"
+            android:text="Diabetes" />
+
+        <Switch
+            android:id="@+id/pilg_switch_hypertension"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/fab_margin"
+            android:text="Hypertension" />
+
+        <Switch
+            android:id="@+id/pilg_switch_heart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/fab_margin"
+            android:text="Heart Diseases" />
+
+        <Switch
+            android:id="@+id/pilg_switch_liver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/fab_margin"
+            android:text="Liver Diseases" />
+
+        <Switch
+            android:id="@+id/pilg_switch_renal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/fab_margin"
+            android:text="Renal Failure" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/fab_margin"
+            android:hint="Continously or regularly used medications"
+            android:minLines="3" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="save" />
+
+    </LinearLayout>
+</ScrollView>
